@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+BRAINWASH
+Introduction
+Over the last few years, while working through the pandemic, we’ve been spending a lot more time at home and people have turned to social media to stay connected with others to fill that extra time.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As we know, many of the popular social media platforms, like Instagram and TikTok, have been proven to be quite detrimental to our mental health, so we wanted to create a platform which would foster a healthier online community where people can connect with others in a social context, all while consuming more positive content.
 
-## Available Scripts
+Users come to Brainwash to learn new skills, improve existing passions, and share their own knowledge through various media types with an online community of other passionate lifelong learners - Think master class meets instagram & youtube.
 
-In the project directory, you can run:
+Brainwash is our submission for the final project for the lighthouse labs web development bootcamp. Over an enjoyable 10 days, the creators: Russell Engebretson, Sophie Oliver and Katie Herda, worked together to build out an MVP of the platform, expanding on knowledge learned in the bootcamp, to add functionality that would allow users to create and consume content, and communicate with other Brainwashers.
 
-### `npm start`
+Live Server
+We have launched our app live using Heroku, and it can be accessed at [Brainwash](https://brainwash-ify-ology.herokuapp.com/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Repository
+This is the front end repository for our app, if you would like to view the backend API click [Brainwash-API](https://github.com/KatieHerda/brainwash-api).
+ 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+We built the front end using React, with React router to navigate between pages and allow for a multi-page feel which our founders preferred.
 
-### `npm test`
+With the short 10 day timeline for producing the platform, we wanted to go with a simple sleek layout and style for the UI, so we implemented Material UI components as they come pre-built with some attractive features.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Additionally we integrated Autho0 using oAuth 2.0 to allow for user authentication and social logins, without having to deal with security issues associated with handling user data properly... let's offload that to companies who have this well sorted out ;).
 
-### `npm run build`
+Project Layout
+This application was laid out following some best practices while using React. In the src directory you will find a [component directory](https://github.com/KatieHerda/brainwash/tree/main/src/components) which houses all of our react components which are fed to the App.js file located in the root of the src directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Running the Repo locally for development
+create a .env file with a single component in it
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+PORT=3002
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is to avoid conflicts with the rails backend API running on port 3000, React's default.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+run the following commands in your terminal:
+```
+npm install
+npm start
+```
+The server should start on localhost port 3002.
