@@ -39,3 +39,13 @@ npm install
 npm start
 ```
 The server should start on localhost port 3002.
+
+Final Product
+
+<img alt="home page" width="400" src="https://github.com/KatieHerda/brainwash/blob/main/docs/index.png?raw=true"> <img/>
+
+<img alt="liked posts" width="400" src="https://github.com/KatieHerda/brainwash/blob/main/docs/liked.png?raw=true"> <img/>
+
+<img alt="profile page" width="400" src="https://github.com/KatieHerda/brainwash/blob/main/docs/profile.png?raw=true"> <img/>
+
+<img alt="create new post" width="400" src="https://github.com/KatieHerda/brainwash/blob/main/docs/create.png?raw=true"> <img/>
