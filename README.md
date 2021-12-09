@@ -1,5 +1,6 @@
-BRAINWASH
-Introduction
+# BRAINWASH
+
+## Introduction
 Over the last few years, while working through the pandemic, we’ve been spending a lot more time at home and people have turned to social media to stay connected with others to fill that extra time.
 
 As we know, many of the popular social media platforms, like Instagram and TikTok, have been proven to be quite detrimental to our mental health, so we wanted to create a platform which would foster a healthier online community where people can connect with others in a social context, all while consuming more positive content.
@@ -8,10 +9,10 @@ Users come to Brainwash to learn new skills, improve existing passions, and shar
 
 Brainwash is our submission for the final project for the lighthouse labs web development bootcamp. Over an enjoyable 10 days, the creators: Russell Engebretson, Sophie Oliver and Katie Herda, worked together to build out an MVP of the platform, expanding on knowledge learned in the bootcamp, to add functionality that would allow users to create and consume content, and communicate with other Brainwashers.
 
-Live Server
+### Live Server
 We have launched our app live using Heroku, and it can be accessed at [Brainwash](https://brainwash-ify-ology.herokuapp.com/).
 
-Repository
+### Repository
 This is the front end repository for our app, if you would like to view the backend API click [Brainwash-API](https://github.com/KatieHerda/brainwash-api).
  
 
@@ -21,7 +22,7 @@ With the short 10 day timeline for producing the platform, we wanted to go with 
 
 Additionally we integrated Autho0 using oAuth 2.0 to allow for user authentication and social logins, without having to deal with security issues associated with handling user data properly... let's offload that to companies who have this well sorted out ;).
 
-Project Layout
+## Project Layout
 This application was laid out following some best practices while using React. In the src directory you will find a [component directory](https://github.com/KatieHerda/brainwash/tree/main/src/components) which houses all of our react components which are fed to the App.js file located in the root of the src directory.
 
 Running the Repo locally for development
@@ -40,7 +41,7 @@ npm start
 ```
 The server should start on localhost port 3002.
 
-Final Product
+## Final Product
 
 <img alt="home page" width="550" src="https://github.com/KatieHerda/brainwash/blob/main/docs/index.png?raw=true"> <img/>
 
